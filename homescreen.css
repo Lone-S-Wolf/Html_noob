@@ -1,0 +1,76 @@
+body {
+    background-color: #7ab8df;
+}
+
+h4 {
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+}
+
+footer {
+    text-align: center;
+}
+
+.intro {
+    text-indent: 5%;
+    color: #000000;
+    background-color: #68c4f1;
+}
+
+.heading {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #000000;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-content: center;
+    column-gap: 5%;
+    row-gap: 2%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 5%;
+}
+
+.grid-item {
+    background-color: #68c4f1;
+    display: flex;
+    justify-content: space-between;
+    height: 200px;
+}
+
+.learnmorebtn {
+    width: 80px;
+    height: 20px;
+    padding: 0px;
+    border-width: 1px;
+    margin: 5px;
+    transition: transform 0.7s ease;
+    border-color: #64cbff;
+}
+
+.btndiv {
+    display: flex;
+    align-items: end;
+}
+
+.learnmorebtn:hover {
+    transform: translateY(-7px);
+    border-color: #000000;
+}
+
+.codename {
+    display: flex;
+    align-items: center;
+}
+
+.codename p {
+    font-size: 50px;
+    transition-duration: 1s;
+}
+
+.codename p:hover {
+    font-size: 60px;
+}
